@@ -1,1 +1,1 @@
-convert day
+print days
