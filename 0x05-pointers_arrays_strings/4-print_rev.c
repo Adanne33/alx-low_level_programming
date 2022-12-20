@@ -2,10 +2,10 @@
 
 /**
  * print_rev - prints string in rev
- * @s: string to be printed
+ * @s: string to be ptinted
  */
 
-void print_rev(char *s);
+void print_rev(char *s)
 {
 	int a, b;
 
@@ -13,7 +13,6 @@ void print_rev(char *s);
 
 	while (s[b] != '\0')
 		b++;
-
 	for (a = b  - 1; a >= 0; a--)
 	{
 		_putchar(s[a]);
