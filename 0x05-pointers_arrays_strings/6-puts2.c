@@ -1,8 +1,9 @@
 #include "main.h"
-
 /**
  * puts2 - prints every other charater of a string
+
  * @str: char to check
+
  * Return: 0 is success
  */
 void puts2(char *str)
@@ -11,6 +12,6 @@ void puts2(char *str)
 
 	for (string = 0; str[string] != '\0'; string++)
 		if (string % 2 == 0)
-			-putchar(str[string]);
+			_putchar(str[string]);
 	_putchar('\n');
 }
