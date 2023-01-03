@@ -8,7 +8,7 @@
 
 void print_chessboard(char (*a)[8])
 {
-/*variables*/
+	/*variables*/
 	int n, j;
 
 
